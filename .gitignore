@@ -1,0 +1,12 @@
+/.idea/
+/logs/
+/ace-demo-projects.iml
+/ace-demo-rocketmq/logs/
+/ace-demo-rocketmq/target/
+/ace-demo-rocketmq/ace-demo-rocketmq.iml
+/ace-deom-graphql-gateway2/ace-deom-graphql-gateway2.iml
+/ace-demo-jsoup/ace-demo-jsoup.iml
+/ace-demo-graphql-web2/ace-demo-graphql-web2.iml
+/ace-demo-graphql-web/ace-demo-graphql-web.iml
+/ace-demo-jsoup-jixugou/ace-demo-jsoup-jixugou.iml
+/ace-demo-jsoup-jixugou/target/classes/

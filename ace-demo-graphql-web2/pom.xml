@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ace-demo-projects</artifactId>
+        <groupId>org.ace</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.ace</groupId>
+    <artifactId>ace-demo-graphql-web2</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.ace</groupId>
+            <artifactId>ace-fw-ms-application-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.ace</groupId>
+            <artifactId>ace-fw-data</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.ace</groupId>
+            <artifactId>ace-fw-log4j2-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.ace</groupId>
+            <artifactId>ace-fw-graphql-all-autoconfigure</artifactId>
+
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-maven-plugin</artifactId>
+                <version>1.3.10</version>
+                <executions>
+                    <execution>
+                        <id>compile</id>
+                        <phase>process-sources</phase>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

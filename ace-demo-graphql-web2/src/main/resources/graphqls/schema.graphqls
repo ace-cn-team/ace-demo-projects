@@ -1,0 +1,15 @@
+type Query {
+    getHumanById(id:String!): Human
+}
+
+type Book {
+    id: String
+    name: String
+    pageCount: Int
+}
+
+type Human {
+    id: String
+    firstName: String
+    lastName: String
+}
