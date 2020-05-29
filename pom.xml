@@ -16,10 +16,9 @@
     <modules>
         <module>ace-demo-graphql-web</module>
         <module>ace-demo-graphql-web2</module>
-        <module>ace-demo-jsoup</module>
         <module>ace-deom-graphql-gateway2</module>
         <module>ace-demo-rocketmq</module>
-        <module>ace-demo-jsoup-jixugou</module>
+
     </modules>
     <packaging>pom</packaging>
 

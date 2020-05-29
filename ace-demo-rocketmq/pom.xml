@@ -15,6 +15,14 @@
     <dependencies>
         <dependency>
             <groupId>org.ace</groupId>
+            <artifactId>ace-fw</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.ace</groupId>
+            <artifactId>ace-fw-mq</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.ace</groupId>
             <artifactId>ace-fw-ms-application-autoconfigure</artifactId>
         </dependency>
         <dependency>
@@ -24,6 +32,10 @@
         <dependency>
             <groupId>org.ace</groupId>
             <artifactId>ace-fw-log4j2-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.ace</groupId>
+            <artifactId>ace-fw-mq-rocketmq</artifactId>
         </dependency>
         <dependency>
             <groupId>org.ace</groupId>

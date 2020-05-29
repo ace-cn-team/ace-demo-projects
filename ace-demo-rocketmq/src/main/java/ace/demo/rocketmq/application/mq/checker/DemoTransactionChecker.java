@@ -2,7 +2,7 @@ package ace.demo.rocketmq.application.mq.checker;
 
 import ace.demo.rocketmq.application.DemoMessage;
 import ace.demo.rocketmq.application.biz.DemoTransactionBiz;
-import ace.fw.mq.enums.TransactionStatusEnum;
+import ace.fw.mq.enums.*;
 import ace.fw.mq.model.MessageContext;
 import ace.fw.mq.model.TransactionMessage;
 import ace.fw.mq.producer.TransactionMQChecker;

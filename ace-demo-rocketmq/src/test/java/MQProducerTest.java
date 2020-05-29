@@ -37,7 +37,10 @@ public class MQProducerTest {
 
     @Test
     public void send() {
-        Message message = Message.builder()
+
+
+        Message message = Message
+                .builder()
                 .body("test-body")
                 .tags(Arrays.asList("tag1", "tag2"))
                 .topic(new Topic() {
@@ -50,7 +53,10 @@ public class MQProducerTest {
                     public String getDesc() {
                         return "test测试";
                     }
-                }).build();
+                };)
+                .build();
+
+
         Assert.state(mqProducer.send(message).getSuccess(), "发送失败");
     }
 
