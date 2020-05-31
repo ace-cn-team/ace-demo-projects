@@ -53,7 +53,7 @@ public class MQProducerTest {
                     public String getDesc() {
                         return "test测试";
                     }
-                };)
+                })
                 .build();
 
 
