@@ -13,3 +13,6 @@
 /ace-demo-graphql-web/target/classes/
 /ace-demo-graphql-web2/target/classes/
 /ace-deom-graphql-gateway2/target/classes/ace/demo/graphql/gateway2/
+/ace-demo-sentinel-client-web/.idea
+/ace-demo-sentinel-client-web/target
+/ace-demo-sentinel-client-web/ace-demo-sentinel-client-web.iml
