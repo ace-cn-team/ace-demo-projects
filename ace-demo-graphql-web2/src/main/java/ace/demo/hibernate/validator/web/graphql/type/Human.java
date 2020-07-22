@@ -1,4 +1,4 @@
-package ace.demo.graphql.web2.graphql.type;
+package ace.demo.hibernate.validator.web.graphql.type;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package ace.demo.graphql.web2.config;
+package ace.demo.hibernate.validator.web.config;
 
 import org.springframework.context.annotation.Configuration;
 

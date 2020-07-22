@@ -1,6 +1,6 @@
-package ace.demo.graphql.web2.graphql.resolver;
+package ace.demo.hibernate.validator.web.graphql.resolver;
 
-import ace.demo.graphql.web2.graphql.type.Human;
+import ace.demo.hibernate.validator.web.graphql.type.Human;
 import graphql.kickstart.tools.GraphQLQueryResolver;
 import org.springframework.stereotype.Component;
 

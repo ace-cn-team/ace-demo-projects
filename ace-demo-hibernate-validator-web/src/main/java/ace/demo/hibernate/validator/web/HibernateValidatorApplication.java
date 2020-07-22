@@ -1,4 +1,4 @@
-package ace.demo.graphql.web2;
+package ace.demo.hibernate.validator.web;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
@@ -12,14 +12,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @Slf4j
 @SpringBootApplication
-public class Demo2Application {
-
-
+public class HibernateValidatorApplication {
     public static void main(String[] args) {
-        try {
-            SpringApplication.run(Demo2Application.class, args);
-        } catch (Exception ex) {
-            log.error("1", ex);
-        }
+        SpringApplication.run(HibernateValidatorApplication.class, args);
     }
 }
