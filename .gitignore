@@ -16,3 +16,7 @@
 /ace-demo-sentinel-client-web/.idea
 /ace-demo-sentinel-client-web/target
 /ace-demo-sentinel-client-web/ace-demo-sentinel-client-web.iml
+/ace-demo-hibernate-validator-web/target/
+/ace-demo-hibernate-validator-web/ace-demo-hibernate-validator-web.iml
+/ace-demo-mapstruct/target/
+/ace-demo-mapstruct/ace-demo-mapstruct.iml

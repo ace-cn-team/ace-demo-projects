@@ -19,6 +19,7 @@
         <module>ace-deom-graphql-gateway2</module>
         <module>ace-demo-rocketmq</module>
         <module>ace-demo-hibernate-validator-web</module>
+        <module>ace-demo-mapstruct</module>
     </modules>
     <packaging>pom</packaging>
 
